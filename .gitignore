@@ -1,0 +1,17 @@
+node_modules/
+service-account.json
+*.zip
+
+# ảnh render thử + file tạm
+render_out/
+*.png
+!assets/**/*.png
+
+# bí mật / môi trường
+.env
+.env.*
+
+# rác hệ thống
+*.log
+.DS_Store
+Thumbs.db

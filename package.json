@@ -1,0 +1,18 @@
+{
+  "name": "nhat-mong-bang-bot",
+  "version": "1.0.0",
+  "description": "Discord bot: điểm danh Bang Chiến/Scrim, thống kê Bang Chiến, Pick Role/role tự động, Đua Rank Thí Kiếm",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@googleapis/drive": "*",
+    "@googleapis/sheets": "*",
+    "discord.js": "^14.27.0",
+    "sharp": "^0.33.5"
+  }
+}
